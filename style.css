@@ -1,0 +1,136 @@
+body{
+    background-color: #dddfe0;
+}
+
+.svg{
+    width: 20px;
+    height: 20px;
+    color: red;
+    position: relative;
+    left: 90px;
+    bottom: -40px;
+}
+
+.linkedin{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 100px;
+    bottom: -40px;
+}
+
+
+.navbar{
+    background-color:white;
+    height: 600px;
+    width: 1300px;
+    border-radius: 50px;
+    position: relative;
+    right: -20px;
+}
+
+
+li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-align: right;
+    float: right;
+    padding: 10px;
+    position: relative;
+    right: 70px;
+    bottom:-10px ;
+    color: #152731;
+    font-size: 20px;
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.je_suis{
+    color: #152731;
+    font-size: 90px;
+    text-align: left;
+    padding-left: 80px;
+
+}
+
+.al{
+    color:#099a68 ;
+}
+
+
+.des{
+    color: #152731;
+    font-size: 30px;
+    padding-left: 80px;
+    position: relative;
+    bottom: 50px;
+}
+
+.hello{
+    font-size: 30px;
+    color: #152731;
+    padding-left: 90px;
+    position: relative;
+    bottom: -70px;
+}
+
+.maphoto{
+    height: 450px;
+    width: 450px;
+    position: relative;
+    right: -800px;
+    top: -390px;
+}
+.mphoto{
+    height: 450px;
+    width: 450px;
+    position: relative;
+    right: -30px;
+    top: -290px;
+}
+
+.cont{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    background-color:#099a68 ;
+    padding: 15px;
+    position: relative;
+    top: -459px;
+    left: -370px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+
+.About{
+    color: #099a68;
+    font-size: 80px;
+    text-align: center;
+    padding-left: 110px;
+    padding-top: 20px;
+}
+
+.text{
+    text-align: left;
+    color: #404f57;
+    position: relative;
+    right: -550px;
+}
+
+.name{
+    background-color: white;
+    width: 700px;
+    height: 200px;
+    position: relative;
+    right: -550px;
+    top: -400px;
+    border-radius: 30px;
+}
