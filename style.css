@@ -1,5 +1,5 @@
 body{
-    background-color: #dddfe0;
+    background-color: #F9F9FA;
 }
 
 .svg{
@@ -23,10 +23,13 @@ body{
 .navbar{
     background-color:white;
     height: 600px;
-    width: 1300px;
+    width: 1250px;
     border-radius: 50px;
     position: relative;
-    right: -20px;
+    margin: 30px;
+    margin-left: 40px;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    
 }
 
 
@@ -55,6 +58,8 @@ a{
     font-size: 80px;
     text-align: left;
     padding-left: 80px;
+    position: relative;
+    top: 20px;
 
 }
 
@@ -68,7 +73,7 @@ a{
     font-size: 30px;
     padding-left: 80px;
     position: relative;
-    bottom: 50px;
+    bottom: 30px;
 }
 
 .hello{
@@ -91,7 +96,7 @@ a{
     width: 450px;
     position: relative;
     right: -30px;
-    top: -290px;
+    top: -190px;
 }
 
 .cont{
@@ -101,7 +106,7 @@ a{
     background-color:#099a68 ;
     padding: 15px;
     position: relative;
-    top: -459px;
+    top: -429px;
     left: -370px;
     border-radius: 10px;
     padding-left: 30px;
@@ -114,7 +119,7 @@ a{
     color: #099a68;
     font-size: 80px;
     text-align: center;
-    padding-left: 110px;
+    padding-left: 0px;
     padding-top: 20px;
 }
 
@@ -131,6 +136,109 @@ a{
     height: 200px;
     position: relative;
     right: -550px;
-    top: -400px;
+    top: -450px;
     border-radius: 30px;
+    box-shadow:5px 10px 30px rgb(168, 167, 167) ;
+}
+
+
+.pnom{
+    font-size: 25px;
+    position: relative;
+    left:50px ;
+    bottom: -30px;
+}
+.nom{
+    color: #099a68;
+}
+
+.ppostnom{
+    font-size: 25px;
+    position: relative;
+    left:50px ;
+    bottom: -20px;
+}
+
+.post{
+    color: #099a68;
+}
+
+
+.prenom{
+    color: #099a68;
+}
+
+.pprenom{
+    font-size: 25px;
+    position: relative;
+    left:50px ;
+    bottom: -10px;
+    right: 20px;
+}
+
+.page{
+    font-size: 25px;
+    position: relative;
+    left:20px ;
+    text-align: right;
+    position: relative;
+    top: -139px;
+    left: -190px;
+}
+
+.age{
+    color: #099a68;
+}
+
+.pad{
+    font-size: 25px;
+    position: relative;
+    left:20px ;
+    text-align: right;
+    top: -139px;
+    left: -55px;   
+
+}
+
+.adresse{
+    color: #099a68;
+}
+
+.cv{
+    text-decoration: none;
+    background-color: #099a68;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    position: relative;
+    right: -1095px;
+    top: -400px;
+}
+
+.porto{
+    color: #099a68;
+    font-size: 80px;
+    position: relative;
+    top: -400px;
+    left: 80px;
+}
+
+.rea{
+    color: #152731;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 400px;
+    
+
+}
+
+.portofo{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background-color: #099a68;
+    bottom: 350px;
+    left: 80px;
+    border-radius: 15px;
 }
