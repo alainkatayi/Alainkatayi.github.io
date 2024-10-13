@@ -3,6 +3,7 @@ body{
     margin: 0px;
     background-color: #F9F9FA;
     color: black;
+    
 }
 
 
@@ -171,7 +172,7 @@ nav ul{
 
 .About{
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     color: #099A68;
 
 }
@@ -180,7 +181,7 @@ nav ul{
 .fullname{
 
     color: #152731;
-    margin-left:120px;
+    margin-left:150px;
 }
 
 
@@ -197,67 +198,64 @@ nav ul{
     position:relative;
     bottom: 110px;
     background-color: white;
-    width: 700px;
-    height: 200px;
+    width: 560px;
+    height: 150px;
     box-shadow:  5px 10px 30px rgb(168, 167, 167);
-    margin-left: 500px;
+    margin-left: 550px;
     border-radius: 40px;
-    padding: 10px;
+    padding: 20px;
     
 }
 
 
-
-.nage{
-    display: flex;
-
-}
-
-
-
 .name{
-    font-size: 25px;
-    margin-left: 20px;
-    color: #152731;
+    position: relative;
+    left: 10px;
+    font-size: 20px;
 }
 
 
 
 .postname{
-    color: #152731;
-    position:relative;
-    bottom: 20px;
-    font-size: 25px;
-    margin-left: 20px;
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+}
+
+.firstname{
+    position: relative;
+    left: 10px;
+    font-size: 20px;
 }
 
 
 
 .age{
-    color: #152731;
-    font-size: 25px;
-    margin-left: 250px;
+    position: relative;
+    left: 300px;
+    bottom: 128px;
+    font-size: 20px;
 }
 
 
 
 .adresse{
-    color: #152731;
     position: relative;
-    bottom: 20px;
-    font-size: 25px;
-    margin-left: 180px;
+    left: 300px;
+    bottom: 125px;
+    font-size: 20px;
 }
 
 
 
-.firstname{
-    color: #152731;
+.experience{
     position: relative;
-    bottom: 45px;
-    font-size: 25px;
-    margin-left: 20px;
+    left: 300px;
+    bottom: 120px;
+    font-size: 20px;
+
 }
+
 
 
 
@@ -277,6 +275,10 @@ nav ul{
     color: #099A68;
 }
 
+.exp{
+    color: #099A68;
+}
+
 
 
 .kinshasa{
@@ -290,9 +292,9 @@ nav ul{
 }
 
 
-.posta{
-    display: flex;
-}
+
+
+
 
 .Telecharger{
     position:relative;
@@ -300,14 +302,185 @@ nav ul{
     text-decoration: none;
     background-color: #099A68;
     color: white;
-    padding: 20px;
-    border-radius: 20px;
-    margin-left: 1050px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 1020px;
 }
 
 
 .Purview{
     color: #099A68;
-    font-size: 80px;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 150px;
+}
+
+
+.technology{
     text-align: center;
+    font-size: 25px;
+}
+
+
+.logohtml{
+    position: relative;
+    bottom: -50px;
+    left: 80px;
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    border-radius: 30px;
+}
+
+
+.logocss{
+    position: relative;
+    left: 210px;
+    bottom:-50px ;
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    border-radius: 30px;
+
+}
+
+.logojs{
+    position: relative;
+    bottom: -50px;
+    left: 370px;
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    border-radius: 30px;
+
+}
+
+
+.logoboostrap{
+    position: relative;
+    bottom: -90px;
+    left: 80px;
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    border-radius: 30px;
+
+}
+
+
+
+.logopython{
+    position: relative;
+    left: 210px;
+    bottom:-90px;
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    border-radius: 30px;
+
+}
+
+.logodjango{
+    position: relative;
+    left: 370px;
+    bottom: -90px;
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    border-radius: 30px;
+
+}
+
+.logo{
+    position: relative;
+    left: 17%;
+    bottom: -20px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    border-radius: 30px;
+    width: 900px;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.ux{
+    text-align: center;
+    font-size: 25px;
+}
+
+.logoxd{
+    position: relative;
+    bottom: -100px;
+    left: 80px;
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    border-radius: 30px;
+}
+
+.logophotoshop{
+    position: relative;
+    left: 210px;
+    bottom:-100px ;
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    border-radius: 30px;
+}
+
+.logoillustrator{
+    position: relative;
+    bottom: -100px;
+    left: 370px;
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    border-radius: 30px;
+}
+.logo2{
+    position: relative;
+    left: 17%;
+    bottom: -20px;
+    background-color: #ffffff;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    border-radius: 30px;
+    width: 900px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+
+.portfolio{
+    text-align: center;
+    margin-top: 100px;
+    margin-left:90px;
+    font-size: 50px;
+    color: #099A68;
+}
+
+.alerte{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 500px;
+}
+
+.const{
+    color: red;
+    text-align: center;
+}
+
+
+.foot{
+    background-color: #152731;
+    padding: 20px;
 }
