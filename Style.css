@@ -3,12 +3,10 @@ body{
     margin: 0px;
     background-color: #F9F9FA;
     color: black;
-    
 }
 
 a{
     text-decoration: none;
-    
 }
 
 
@@ -18,25 +16,19 @@ a{
     padding-left:0px ;
 }
 
-
 .linkedin{
     width: 20px;
     height: 20px;
 }
 
-
 .navprin{
     background-color: #FFFFFF;
-    width: 1265px;
-    height: 580px;
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-bottom: 0px;
-    padding: 10px;
+    margin: 50px;
+    height: 530px;
+    padding: 30px;
     border-radius: 50px;
     box-shadow: 5px 10px 30px rgb(168, 167, 167);
 }
-
 
 li{
     list-style:none ;
@@ -44,7 +36,6 @@ li{
 
 nav ul li a{
     font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
-    margin-left: 30px;
     font-size: 20px;
     color: black;
 
@@ -52,25 +43,15 @@ nav ul li a{
 
 nav ul li :hover{
     color:#099A68;
+}
 
+
+nav ul  {
+    margin-left: 500px;
 }
 nav ul li {
-    transition : color .500s ;
-
+    margin-left: 30px;
 }
-
-
-a{
-    text-decoration: none;
-}
-
-
-nav ul {
-    padding-left: 600px;
-    margin-top: 30px;
-}
-
-
 
 nav ul{
     display: flex;
@@ -84,11 +65,9 @@ nav ul{
 
 
 .lilinkedin{
-    position: relative;
-    right: 520px;
+    transform: translate(-410px);
+    margin-left: -30px;
 }
-
-
 
 .Contact{
     color: #ffffff;
@@ -109,80 +88,63 @@ nav ul{
 
 .Hello{
     font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
-    position: relative;
-    left: 10px;
     font-size: 30px;
     color: #099A68;
-    margin: 0px;
+    margin-left: 50px;
+    margin-top: 100px;
     animation: hello 0.3s;
 }
 
-
-
-.container{
-    margin-left: 100px;
-    margin-top: 90px;
+.jesuisphoto{
+    display: flex;
 }
 
+.Myphoto{
+    position: relative;
+    bottom: 50px;
+    height: 450px;
+    width: 450px;
+    margin-left:200px;
+    margin-top: -100px;
+    animation: slidephoto 3s;
+}
 
 .Jesuis{
     color: #152731;
     font-size: 80px;
-    margin: 0px;
+    margin-left: 50px;
+    margin-top: -40px;
     animation: Jesuis 3s;
+    
 }
-
 
 .Alain{
     color: #099A68;
 }
 
-
 .Developpeur{
     font-family: 'Calibri Light (Headings)', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana, sans-serif';
-    position: relative;
-    bottom: 20px;
+    margin-top: -180px;
+    margin-left: 50px;
     color: #152731;
     font-size: 30px;
     animation: Jesuis 3s;
 }
 
-
 .Contact2{
     font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
-    position: relative;
-    top: 20px;
+    margin-top: 100px;
+    margin-left: 150px;
     color: white;
     background-color: #099A68;
     padding:15px ;
     border-radius:10px;
-    margin-left: 100px;
     animation: Jesuis 5s;
 
 }
 
-
 .Contact2:hover{
     box-shadow: 10px 10px 60px #099a67ab;
-}
-
-
-.Myphoto{
-    height: 450px;
-    width: 450px;
-    margin-left: 720px;
-    margin-top: -400px;
-    animation: slidephoto 3s;
-}
-
-
-.maphoto{
-    position:relative;
-    left: 60px;
-    top: 30px;
-    width: 370px;
-    height: 370px;
-    margin: 0px;
 }
 
 
@@ -195,105 +157,90 @@ nav ul{
 
 }
 
+.maphoto{
+    width: 370px;
+    height: 370px;
+    margin-left: 50px;
+}
+
+
 
 .fullname{
     font-family: 'Calibri Light (Headings)', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana, sans-serif';
     color: #152731;
-    margin-left:180px;
-}
+    margin-left: 150px;
 
+}
 
 .nana{
     display: flex;
-    margin-left: 30px;
+
 }
 
-
 .identity{
-    position:relative;
-    bottom: 110px;
     background-color: white;
     width: 560px;
-    height: 150px;
+    height: 180px;
     box-shadow:  5px 10px 30px rgb(168, 167, 167);
-    margin-left: 590px;
     border-radius: 40px;
     padding: 20px;
+    transform: translateX(580px);
+    margin-top: -130px;
     
 }
 
+.ident{
+    display: flex;
+    margin-left: 20px;
+}
 
 .name{
     font-family: 'Bahnschrift';
     font-weight: bold;
-    position: relative;
-    left: 10px;
     font-size: 20px;
 }
-
-
 
 .postname{
     font-family: 'Bahnschrift';
     font-weight: bold;
-    position: relative;
-    left: 10px;
     font-size: 20px;
+    margin-left: 150px;
 }
 
 .firstname{
     font-family: 'Bahnschrift';
     font-weight: bold;
-    position: relative;
-    left: 10px;
     font-size: 20px;
 }
-
-
 
 .age{
     font-family: 'Bahnschrift';
     font-weight: bold;
-    position: relative;
-    left: 300px;
-    bottom: 140px;
     font-size: 20px;
+    margin-left: 130px;
 }
-
-
 
 .adresse{
     font-family: 'Bahnschrift';
     font-weight: bold;
-    position: relative;
-    left: 300px;
-    bottom: 140px;
     font-size: 20px;
 }
-
 
 .experience{
     font-family: 'Bahnschrift';
     font-weight: bold;
-    position: relative;
-    left: 300px;
-    bottom: 135px;
     font-size: 20px;
+    margin-left: 35px;
 
 }
-
 
 .Katayi{
     color: #099A68;
 }
 
-
-
 .kayembe{
     color: #099A68;
 }
-
-
 
 .ans{
     color: #099A68;
@@ -303,43 +250,35 @@ nav ul{
     color: #099A68;
 }
 
-
-
 .kinshasa{
     color: #099A68;
 }
-
-
 
 .alain{
     color: #099A68;
 }
 
-
-
 .Telecharger{
     font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
-
-    position:relative;
-    bottom: 50px;
     text-decoration: none;
     background-color: #099A68;
     color: white;
     padding: 15px;
     border-radius: 10px;
-    margin-left: 1050px;
-}
+    position: relative;
+    top: 30px;
+    margin-left: 1040px;
 
+}
 
 .Purview{
     font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
     font-weight: bold;
     color: #099A68;
     font-size: 50px;
-    text-align: left;
-    margin-left: 150px;
+    margin: 80px;
+   
 }
-
 
 .technology{
     text-align: center;
@@ -348,8 +287,9 @@ nav ul{
 
 .frontback{
     display: flex;
-    
-    
+    margin-left: 80px;
+
+
 }
 
 .front{
@@ -357,8 +297,6 @@ nav ul{
     width: 500px;
     height: 400px;
     background-color: rgb(255, 255, 255);
-    position: relative;
-    left: 100px;
     border-radius: 30px;
     box-shadow: 5px 10px 30px rgb(168, 167, 167);
 }
@@ -368,10 +306,9 @@ nav ul{
     background-color: rgb(255, 255, 255);
     width: 500px;
     height: 400px;
-    position: relative;
-    left: 160px;
     border-radius: 30px;
     box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    margin-left: 80px;
 }
 
 .hfront{
@@ -379,8 +316,6 @@ nav ul{
     font-weight: bold;
     color: #152731;
     font-size: 30px;
-    position: relative;
-    left: 20px;
 }
 
 .pfront{
@@ -389,15 +324,14 @@ nav ul{
     position: relative;
     bottom: 60px;
 }
+
 .logohtml{
     position: relative;
     left: -40px;
     bottom: 40px;
     width: 150px;
     height: 150px;
-
 }
-
 
 .logocss{
     position: relative;
@@ -405,7 +339,6 @@ nav ul{
     left: -150px;
     width: 150px;
     height: 150px;
-
 }
 
 .logojs{
@@ -414,7 +347,6 @@ nav ul{
     bottom: 40px;
     width: 150px;
     height: 150px;
-
 }
 
 .hback{
@@ -455,6 +387,8 @@ nav ul{
 
 .uxframework{
     display: flex;
+    margin-left: 80px;
+    margin-top: 80px;
 }
 
 
@@ -463,9 +397,6 @@ nav ul{
     width: 500px;
     height: 400px;
     background-color: rgb(255, 255, 255);
-    position: relative;
-    left: 80px;
-    bottom: -80px;
     border-radius: 30px;
     box-shadow: 5px 10px 30px rgb(168, 167, 167);
 }
@@ -475,8 +406,7 @@ nav ul{
     font-weight: bold;
     color: #152731;
     font-size: 30px;
-    position: relative;
-    left: 20px;
+
 }
 
 .pux{
@@ -519,11 +449,9 @@ nav ul{
     background-color: rgb(255, 255, 255);
     width: 500px;
     height: 400px;
-    position: relative;
-    left: 160px;
-    bottom: -80px;
     border-radius: 30px;
     box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    margin-left: 80px;
 }
 
 .hframework{    font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
@@ -824,8 +752,62 @@ nav ul{
 }
 
 
-@media screen  and (max-width:1295px) {
-    .fullname{
-        margin-left: 170px;
+/*@media screen  and (max-width:1292px) {
+    .navprin{
+        
+        width: 1245px;
     }
+}
+@media screen  and (max-width:1272px) {
+    .navprin{
+        
+        width: 1225px;
+    }
+}*/
+
+
+
+
+/*Pour un iphone SE*/
+
+
+
+@media screen and (max-width: 375px) {
+
+    
+        
+    .navprin{
+        background-color: #FFFFFF;
+        width: 310px;
+        height: 580px;
+        margin-top: 40px;
+        margin-left: 25px;
+        margin-bottom: 0px;
+        padding: 5px;
+        border-radius: 50px;
+        box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    }
+
+
+    nav ul li a{
+        display: none;
+    
+    }
+
+
+}
+
+#burger{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-left:20px ;
+}
+
+.linkedin22{
+    display: none;
+    margin-left: 250px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
 }
