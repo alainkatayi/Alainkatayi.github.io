@@ -401,6 +401,18 @@ nav ul{
     box-shadow: 5px 10px 30px rgb(168, 167, 167);
 }
 
+
+.framework{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    margin-left: 80px;
+}
+
+
 .huiux{
     font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
     font-weight: bold;
@@ -442,16 +454,6 @@ nav ul{
     width: 150px;
     height: 150px;
 
-}
-
-.framework{
-    padding: 30px;
-    background-color: rgb(255, 255, 255);
-    width: 500px;
-    height: 400px;
-    border-radius: 30px;
-    box-shadow: 5px 10px 30px rgb(168, 167, 167);
-    margin-left: 80px;
 }
 
 .hframework{    font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
@@ -765,10 +767,229 @@ nav ul{
     }
 }*/
 
+@media screen and (max-width: 1290px) {
+    .Myphoto{
+
+        margin-left:100px;
+
+    }
+
+
+    .front{
+
+        width: 450px;
+        height: 400px;
+    }
+    
+    .back{
+        width: 450px;
+        height: 400px;
+    }
+
+    .pfront{
+        bottom: 200px;
+    }
+
+
+    .ux{
+
+        width: 450px;
+        height: 400px;
+
+    }
+
+    .pux{
+        bottom: 230px;
+    }
+    
+    
+    .framework{
+
+        width: 450px;
+        height: 400px;
+
+    }
+
+    .logoillustrator{
+
+        padding-left: 330px;
+        bottom: 180px;
+
+    
+    }
+    
+
+}
 
 
 
-/*Pour un iphone SE*/
+
+@media screen and (max-width:1226px){
+    nav ul  {
+        margin-left: 400px;
+    }
+
+    .ligithub{
+        transform: translate(-410px);
+    }
+    
+    
+    
+    .lilinkedin{
+        transform: translate(-310px);
+        margin-left: -30px;
+    }
+
+    .fullname{
+        margin-left: 100px;
+    }
+
+    .identity{
+        transform: translateX(510px);
+
+        
+    }
+
+    .Telecharger{
+
+        margin-left: 970px;
+    
+    }
+}
+
+@media screen and (max-width:1190px){
+    .Myphoto{
+        width: 400px;
+        height: 400px;
+    }
+
+    .Developpeur{
+        margin-top: -120px;
+    }
+    .fullname{
+        margin-left: 80px;
+    }
+
+    .identity{
+        transform: translateX(500px);
+    }
+
+    .Telecharger{
+        margin-left: 940px;
+    }
+
+    
+    .back{
+
+    margin-left: 50px;
+    }
+
+    
+    .framework{
+
+        margin-left: 50px;
+    }
+
+}
+
+
+@media screen and (max-width:1140px){
+
+    .Myphoto{
+        width:350px ;
+        height:350px ;
+        top:30px ;
+    }
+
+    .Developpeur{
+        margin-top: -80px;
+    }
+
+    .fullname{
+        margin-left: 50px;
+    }
+
+    .identity{
+        transform: translateX(460px);
+    }
+
+
+    .front{
+
+        width: 400px;
+        height: 350px;
+    }
+    
+    .back{
+        width: 400px;
+        height: 350px;
+    }
+
+    .ux{
+
+        width: 400px;
+        height: 350px;
+
+    }
+    .framework{
+
+        width: 400px;
+        height: 350px;
+
+    }
+
+    
+    .pfront{
+        bottom: 250px;
+    }
+    .pux{
+        bottom: 250px;
+    }
+
+    .pframe{
+        bottom: 380px;
+    }
+    .pback{
+        bottom: 95px;
+    }
+
+}
+
+
+@media screen and (max-width:1122px){
+    nav ul  {
+        margin-left: 350px;
+    }
+    nav ul li {
+        margin-left: 30px;
+    }
+
+    
+    .ligithub{
+        transform: translate(-370px);
+    }
+    
+    
+    
+    .lilinkedin{
+        transform: translate(-290px);
+        margin-left: -30px;
+    }
+
+    .Telecharger{
+        margin-left: 910px;
+    }
+
+}
+
+
+@media screen  and (max-width:1082px){
+
+}
+
+
+
+
 
 
 
