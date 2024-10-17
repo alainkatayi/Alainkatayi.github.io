@@ -268,7 +268,6 @@ nav ul{
     position: relative;
     top: 30px;
     margin-left: 1040px;
-
 }
 
 .Purview{
@@ -769,11 +768,8 @@ nav ul{
 
 @media screen and (max-width: 1290px) {
     .Myphoto{
-
         margin-left:100px;
-
     }
-
 
     .front{
 
@@ -792,35 +788,25 @@ nav ul{
 
 
     .ux{
-
         width: 450px;
         height: 400px;
-
     }
 
     .pux{
         bottom: 230px;
     }
     
-    
     .framework{
-
         width: 450px;
         height: 400px;
-
     }
 
     .logoillustrator{
-
         padding-left: 330px;
         bottom: 180px;
-
-    
     }
     
-
 }
-
 
 
 
@@ -832,8 +818,6 @@ nav ul{
     .ligithub{
         transform: translate(-410px);
     }
-    
-    
     
     .lilinkedin{
         transform: translate(-310px);
@@ -847,7 +831,6 @@ nav ul{
     .identity{
         transform: translateX(510px);
 
-        
     }
 
     .Telecharger{
@@ -856,6 +839,8 @@ nav ul{
     
     }
 }
+
+
 
 @media screen and (max-width:1190px){
     .Myphoto{
@@ -878,12 +863,10 @@ nav ul{
         margin-left: 940px;
     }
 
-    
     .back{
 
     margin-left: 50px;
     }
-
     
     .framework{
 
@@ -891,6 +874,8 @@ nav ul{
     }
 
 }
+
+
 
 
 @media screen and (max-width:1140px){
@@ -938,7 +923,6 @@ nav ul{
 
     }
 
-    
     .pfront{
         bottom: 250px;
     }
@@ -956,6 +940,8 @@ nav ul{
 }
 
 
+
+
 @media screen and (max-width:1122px){
     nav ul  {
         margin-left: 350px;
@@ -969,8 +955,6 @@ nav ul{
         transform: translate(-370px);
     }
     
-    
-    
     .lilinkedin{
         transform: translate(-290px);
         margin-left: -30px;
@@ -983,52 +967,452 @@ nav ul{
 }
 
 
+
+
 @media screen  and (max-width:1082px){
+    .Myphoto{
+        width: 300px ;
+        height: 300px;
+    }
+    .Developpeur{
+        margin-top: -30px;
+    }
+
+    .maphoto{
+        width: 300px;
+        height: 300px;
+    }
+
+    .fullname{
+        font-size: 15px;
+        margin-left: 80px;
+    }
+
+    .identity{
+
+        width: 510px;
+        height: 180px;
+        transform: translateX(420px);
+        margin-top: -100px;
+    }
+
+    .Telecharger{
+
+        margin-left: 830px;
+    
+    }
 
 }
 
 
 
 
-
-
-
-@media screen and (max-width: 375px) {
-
-    
-        
-    .navprin{
-        background-color: #FFFFFF;
-        width: 310px;
-        height: 580px;
-        margin-top: 40px;
-        margin-left: 25px;
-        margin-bottom: 0px;
-        padding: 5px;
-        border-radius: 50px;
-        box-shadow: 5px 10px 30px rgb(168, 167, 167);
+@media screen and (max-width:1088px){
+    .Myphoto{
+        width: 300px;
+        height: 300px;
+        margin-left:200px;
     }
 
+    .Jesuis{
+        font-size: 70px;
+    }
 
-    nav ul li a{
+    .Developpeur{
+        margin-top: -30px;
+    }
+
+    .maphoto{
+        width: 300px;
+        height: 300px;
+    }
+
+    .identity{
+        width: 500px;
+        height: 180px;
+        transform: translateX(400px);
+        margin-top: -80px;
+    }
+
+    .Telecharger{
+        margin-left: 800px;
+    }
+}
+
+
+
+
+@media screen and (max-width:1084px){
+
+    .Myphoto{
+        width: 300px;
+        height: 300px;
+        margin-left:180px;
+    }
+}
+
+
+
+@media screen and (max-width:1074px){
+    nav ul  {
+        margin-left: 300px;
+    }
+
+    .ligithub{
+        transform: translate(-310px);
+    }
+    
+    
+    
+    .lilinkedin{
+        transform: translate(-230px);
+        margin-left: -30px;
+    }
+}
+
+
+
+
+@media screen and (max-width:1064px){
+    .Myphoto{
+
+        margin-left:150px;
+    }
+}
+
+
+
+@media screen and (max-width:1034px){
+    .Myphoto{
+        margin-left:130px;
+    }
+
+    .frontback{
+        margin-left: 30px;
+    }
+
+    .uxframework{
+        margin-left: 30px;
+    }
+
+}
+
+
+
+@media screen and (max-width:1026px){
+    nav ul  {
+        margin-left: 280px;
+    }
+
+    .ligithub{
+        transform: translate(-310px);
+    }
+    
+    .lilinkedin{
+        transform: translate(-230px);
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width:1014px){
+    .Myphoto{
+        margin-left:120px;
+    }
+
+    
+    .fullname{
+        font-size: 15px;
+        margin-left: 60px;
+    }
+}
+
+
+
+
+@media screen and (max-width:1004px){
+    nav ul  {
+        margin-left: 240px;
+    }
+
+    .Myphoto{
+        margin-left:110px;
+    }
+}
+
+
+
+@media screen and (max-width:996px){
+    nav ul  {
+        margin-left: 260px;
+    }
+
+    .Myphoto{
+        margin-left:100px;
+    }
+
+    .fullname{
+        font-size: 15px;
+        margin-left: 30px;
+    }
+
+    .identity{
+        transform: translateX(380px);
+    }
+
+    .Telecharger{
+        margin-left: 780px;
+    }
+
+    .frontback{
+        display: block;
+        margin-left: 80px;
+    }
+
+    .back{
+        margin-left: 0px;
+    }
+
+    .front{
+        margin: 80px;
+        padding: 50px;
+        width: 500px;
+        height: 400px;
+
+    }
+    
+    .back{
+        margin: 80px;
+        padding: 50px;
+        width: 500px;
+        height: 400px;
+
+    }
+
+    .uxframework{
+        display: block;
+        margin-left: 80px;
+
+    }
+    
+    .ux{
+        margin: 80px;
+        padding: 50px;
+        width: 500px;
+        height: 400px;
+    }
+    
+    .framework{
+        margin: 80px;
+        padding: 50px;
+        width: 500px;
+        height: 400px;
+    }
+    
+    .pfront{
+        bottom: 100px;
+    }
+}
+
+
+@media screen and (max-width:986px){
+    nav ul  {
+        margin-left: 230px;
+    }
+
+    .Myphoto{
+        margin-left:80px;
+    }
+
+    
+    .ligithub{
+        transform: translate(-260px);
+    }
+    
+    .lilinkedin{
+        transform: translate(-200px);
+        margin-left: -30px;
+    }
+
+    .uxframework{
+        display: block;
+        margin-left: 130px;
+
+    }   
+
+    
+    .frontback{
+        display: block;
+        margin-left: 130px;
+    }
+}
+
+@media screen and (max-width:966px){
+    .Myphoto{
+        margin-left:60px;
+    }
+}
+
+
+@media screen and (max-width:960px){
+    .Myphoto{
+        margin-left:60px;
+    }
+
+    .fullname{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:950px){
+    nav ul  {
+        margin-left: 210px;
+    }
+}
+
+@media screen and (max-width:938px){
+    .Myphoto{
+        margin-left:50px;
+    }
+}
+
+@media screen and (max-width:934px){
+    nav ul  {
+        margin-left: 200px;
+    }
+
+    .ligithub{
+        transform: translate(-230px);
+    }
+    
+    .lilinkedin{
+        transform: translate(-150px);
+        margin-left: -30px;
+    }
+
+    .Myphoto{
+        margin-left:40px;
+    }
+}
+
+@media screen and (max-width:924px){
+    nav ul  {
+        margin-left: 190px;
+    }
+
+    .Myphoto{
+        margin-left:30px;
+    }
+
+    
+    .identity{
+        transform: translateX(350px);
+    }
+
+    .Telecharger{
+        margin-left: 750px;
+    }
+}
+
+@media screen and (max-width:916px){
+    nav ul  {
+        margin-left: 180px;
+    }
+
+    .Myphoto{
+        margin-left:20px;
+    }
+}
+
+@media screen and (max-width:906px){
+    nav ul  {
+        margin-left: 160px;
+    }
+
+    .ligithub{
+        transform: translate(-180px);
+    }
+    
+    .lilinkedin{
+        transform: translate(-110px);
+        margin-left: -30px;
+    }
+
+    .Myphoto{
+        margin-left:15px;
+    }
+}
+
+@media screen and (max-width:894px){
+    #burger{
         display: none;
+
+    
     
     }
+    
+    
+    .burgerlink{
+        display: none;
 
+    
+    }
+    .Myphoto{
+        margin-left:40px;
+    }
+    .Jesuis{
+
+        font-size: 60px;  
+        margin-top: -15px;      
+    }
+
+    .identity{
+        width: 480px;
+        height: 180px;        
+    }
+
+    .Telecharger{
+        margin-left: 730px;
+    }   
+}
+
+@media screen and (max-width:886px){
+    nav ul  {
+        display: none;
+    }
+
+    #burger{
+        display: block;
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .burgerlink{
+        display: block;
+    }
 
 }
+
+
+
 
 #burger{
-    display: none;
-    width: 40px;
-    height: 40px;
-    margin-left:20px ;
+
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+
+
 }
 
-.linkedin22{
-    display: none;
-    margin-left: 250px;
-    margin-top: 10px;
-    width: 40px;
-    height: 40px;
+
+.burgerlink{
+
+    margin: 0px;
+    padding: 20px;
+    background-color: #F9F9FA;
+    position: relative;
+    box-shadow: 5px 10px 10px rgb(168, 167, 167);
+
 }
