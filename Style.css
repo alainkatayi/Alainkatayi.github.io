@@ -1,7 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-color: #F9F9FA;
+    background-color: #ffffff;
     color: black;
 }
 
@@ -9,6 +9,9 @@ a{
     text-decoration: none;
 }
 
+.burger{
+    display: none;
+}
 
 .github{
     width: 20px;
@@ -186,7 +189,6 @@ nav ul{
     padding: 20px;
     transform: translateX(580px);
     margin-top: -130px;
-    
 }
 
 .ident{
@@ -276,6 +278,7 @@ nav ul{
     color: #099A68;
     font-size: 50px;
     margin: 80px;
+    text-align: center;
    
 }
 
@@ -413,6 +416,7 @@ nav ul{
 
 
 .huiux{
+    position: relative;
     font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
     font-weight: bold;
     color: #152731;
@@ -482,8 +486,6 @@ nav ul{
     font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
     font-weight: bold;
     text-align: center;
-    margin-top: 200px;
-    margin-left:90px;
     font-size: 50px;
     color: #099A68;
 }
@@ -1344,19 +1346,7 @@ nav ul{
 }
 
 @media screen and (max-width:894px){
-    #burger{
-        display: none;
 
-    
-    
-    }
-    
-    
-    .burgerlink{
-        display: none;
-
-    
-    }
     .Myphoto{
         margin-left:40px;
     }
@@ -1376,43 +1366,720 @@ nav ul{
     }   
 }
 
+@media screen and (max-width:896px){
+    .Myphoto{
+        margin-left:50px;
+    }
+}
+
 @media screen and (max-width:886px){
     nav ul  {
         display: none;
     }
 
-    #burger{
+    .burger{
+        z-index: 100;
+        position: fixed;
         display: block;
-        width: 40px;
-        height: 40px;
+        width: 370px;
+        height: 70px;
+        margin-left: 30px;
+        margin-top: 10px;
+        background-color: #007bff;
+        top: -20px;
+
 
     }
 
-    .burgerlink{
+    .navprin{
+        background-color: #FFFFFF;
+        margin: 20px;
+        margin-top: 90px;
+        height: 400px;
+        padding: 20px;
+
+  
+    }
+
+    .Hello{
+
+        margin-top: 50px;
+
+    }
+
+    .maphoto{
+        margin-left: 10px;
+    }
+
+    .identity{
+        transform: translateX(320px);
+    }
+
+    .Telecharger{
+        margin-left: 700px;
+    }  
+    
+    
+    .uxframework{
         display: block;
+        margin-left: 80px;
+
+    }   
+
+    
+    .frontback{
+        display: block;
+        margin-left: 80px;
+    }
+
+}
+
+@media screen and (max-width:842px){
+    .Myphoto{
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .maphoto{
+        width: 250px;
+        height: 250px;
+    }
+
+    .identity{
+        width: 480px;
+        height: 150px;
+        margin-top: -30px;    
+        transform: translateX(270px);    
+    }
+
+    .Telecharger{
+        margin-left: 650px;
+    } 
+    
+
+
+    .name{
+
+        position: relative;
+        top: -10px;
+    }
+    
+    .postname{
+
+        margin-left: 150px;
+        position: relative;
+        top: -10px;
+        
+    }
+    
+    .firstname{
+
+        position: relative;
+        top: -20px;
+    }
+    
+    .age{
+
+        margin-left: 130px;
+        position: relative;
+        top: -20px;
+    }
+    
+    .adresse{
+
+        position: relative;
+        top: -40px;
+    }
+    
+    .experience{
+
+        margin-left: 35px;
+        position: relative;
+        top: -40px;
+    
+    }
+}
+
+
+@media screen and (max-width:822px){
+    .uxframework{
+        display: block;
+        margin-left: 50px;
+
+    }   
+
+    
+    .frontback{
+        display: block;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:790px){
+    .jesuisphoto{
+        display: block;
+    }
+
+    .Hello{
+        margin-top: 50px;
+    }
+
+    .Myphoto{
+        position: relative;
+        left: 350px;
+        top: -100px;
+    }
+
+    .Developpeur{
+        margin-top: -150px;
+
+    }
+
+    .identity{
+
+        margin-top: -5px;    
+        transform: translateX(250px);    
+    }
+
+    .Telecharger{
+        margin-left: 620px;
+    } 
+}
+
+@media screen and (max-width:766px){
+    .nana{
+        display: block;
+    }
+
+    .maphoto{
+        margin-left: 260px;
+    }
+
+    .fullname{
+        margin: 50px;
+        
+    }
+
+    
+    .identity{
+
+        margin-top: -5px;    
+        transform: translateX(80px);    
+    }
+
+    .Telecharger{
+        margin-left: 450px;
+    } 
+
+    .uxframework{
+        display: block;
+        margin-left: 0px;
+
+    }   
+
+    
+    .frontback{
+        display: block;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:720px){
+    .Myphoto{
+        position: initial;
+        margin-left: 170px;
+
+    }
+
+    .navprin{
+        height: 550px;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 80px;
+        background-color: #ffffff;
+        box-shadow: none;
+    }
+
+    .Jesuis{
+
+        margin-left: 0px;
+        text-align: center;
+        font-size: 80px;
+    }
+    .Hello{
+        margin-top: 100px;
+        text-align: left;
+    }
+
+
+    .Hello{
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+
+
+
+    .Developpeur{
+        text-align: center;
+        margin-top: -15px;
+
+    }
+
+    .Contact2{
+        margin-left: 250px;
+    }
+
+
+    .front{
+        
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+    .back{
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+    .framework{
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+    .ux{
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+
+    .frontback{
+        margin-left: 100px;
+    }
+    .pux{
+        position: relative;
+        text-align: left;
+        margin-top: 40px;
+        margin: 20px;
+    }
+    .pframe{
+        margin: 20px;
+        margin-top: -50px;
+    }
+
+    .pfront{
+        margin:20px ;
+    }
+
+    .pback{
+        margin: 20px;
+    }
+
+    .uxframework{
+        margin-left: 100px;
+    }
+    .hfront{
+        margin-left: 20px;
     }
 
 }
 
 
+@media screen and (max-width:718px){
+    .Jesuis{
+        font-size: 80px;
+        text-align: left;
+    }       
+    .navprin{
+        padding: 0px;
+        margin-left: 50px;
+        margin-top: 50px;
+        background-color: #ffffff;
+        box-shadow: none;
+    }
 
 
-#burger{
 
-    width: 50px;
-    height: 50px;
-    margin-left: 50px;
+    .Hello{
+        margin-left: 130px;
+        margin-top: 100px;
+    }
+
+    .Myphoto{
+
+        margin-left: 400px;
+        margin-top: -280px;
+    }
+
+    .Developpeur{
+        text-align: left;
+        margin-top: -35px;
+        margin-left: 0px;
+    }
+
+    .Contact2{
+        margin-left: 130px;
+    }
+
+}
+
+@media screen and (max-width:635px){
+    .Myphoto{
+
+        margin-left: 800px;
+
+    }
+}
+
+@media screen and (max-width:654px){
+    .Jesuis{
+        font-size: 70px;
+        text-align: left;
+    }
+    .uxframework{
+        margin-left:60px ;
+    }
+
+    .frontback{
+        margin-left: 60px;
+    }
+
+    .Hello{
+        
+        margin-left: 70px;
+    }
+
+    .maphoto{
+        margin-left: 200px;
+    }
+
+}
+
+@media screen and (max-width:636px){
+
+    .Jesuis{
+        font-size: 70px;
+        text-align: left;
+    }
+    .identity{
+
+        margin-top: -5px;    
+        transform: translateX(50px);    
+    }
+
+    .Telecharger{
+        margin-left: 420px;
+    } 
+
+    .Myphoto{
+        position: initial;
+        margin-left: 30px;
+
+    }
+
+    .Contact2{
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width:630px){
+    .Jesuis{
+        font-size: 70px;
+        text-align: left;
+    }
+    .Myphoto{
+        position: relative;
+        left: -150px;
+        top: 20px;
+    }
+
+    .Developpeur{
+        margin-top: 15px;
+    }
+
+    .Contact2{
+        margin-left: 250px;
+    }
+}
+
+
+@media screen and (max-width:636px){
+    .Jesuis{
+        font-size: 70px;
+        text-align: left;
+    }
+    .Myphoto{
+        margin-left: 300px;
+    }
+}
+
+
+@media screen and (max-width:590px){
+    .Jesuis{
+        font-size: 70px;
+        text-align: left;
+    }
+    .Myphoto{
+        margin-left: 280px;
+    }
+}
+
+
+
+@media screen and (max-width:592px){
+    .Jesuis{
+        font-size: 70px;
+        text-align: left;
+    } 
+
+    .maphoto{
+        margin-left: 160px;
+    }
+
+    .Developpeur{
+        margin-left: 0px;
+    }
+
+    .Contact2{ 
+        margin-left: 180px;
+    }
+
+    .uxframework{
+        margin-left:40px ;
+    }
+
+    .frontback{
+        margin-left: 40px;
+    }
+
+    
+
+}
+
+@media screen and (max-width:574px){
+    .Jesuis{
+        font-size: 70px;
+        text-align: left;
+    }
+    .identity{
+        width: 450px;
+        height: 150px;
+        margin-top: -30px;    
+    }
+
+    .Telecharger{
+        margin-left: 400px;
+    } 
+    .huiux{
+        margin: 20px;
+        z-index: 100;
+    }
+
+    
+    .uxframework{
+        margin-left:25px ;
+    }
+
+    .frontback{
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width:548px){
+        .Jesuis{
+            font-size: 70px;
+            text-align: left;
+        }
+
+    .Contact2{
+        margin-left: 150px;
+    }
+
+    .Developpeur{
+        margin-top: 20px;
+    }
+
+    .Myphoto{
+        margin-top:-70px ;
+        margin-left: 250px;
+    }
+
+    .identity{
+        transform: translateX(40px);    
+        width: 400px;
+        height: 200px;
+    }
+
+    .front{
+        padding: 15px;
+        width: 400px;
+    }
+    .logojs{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin-top: -360px;
+        margin-left: 310px;
+        top: -57px;
+    }
+
+    .back{
+        padding: 5px;
+        padding: 15px;
+        width: 400px;
+    }
+
+    .ux{
+        padding: 5px;
+        padding: 15px;
+        width: 400px;
+    }
+
+    .framework{
+        padding: 5px;
+        padding: 15px;
+        width: 400px;
+    }
+    
+    .pframe{
+
+        position: initial;
+        margin-top: -350px;
+    }
+
+    .frontback{
+        margin-left: 60px;
+    }
+
+    .uxframework{
+        margin-left: 60px;
+    }
+
+    .age{
+        margin-left: 110px;
+    }
+
+    .Telecharger{
+        margin-left: 340px;
+    } 
+}
+
+@media screen and (max-width:526px){
+
+    .frontback{
+        margin-left: 50px;
+    }
+
+    .uxframework{
+        margin-left: 50px;
+    }
+
+    .maphoto{
+        margin-left: 140px;
+    }
+
+}
+
+@media screen and (max-width:492px){
+
+    .navprin{
+        height: 580px;
+        border-radius: 30px;
+        padding: 0px;
+        background-color: #ffffff;
+        box-shadow: none;
+    }
+
+    .fullname{
+        margin-left: 50px;
+    }
+
+    .identity{
+        padding: 5px;
+        transform: translateX(40px);   
+        border-radius:20px;
+    }
+
+    .Telecharger{
+        margin-left: 320px;
+    } 
+
+    .frontback{
+        margin-left: 30px;
+    }
+
+    .uxframework{
+        margin-left: 30px;
+    }
+
+    .firstname{
+        position: relative;
+        top: -40px;
+    }
+    
+    .age{
+        margin-left: 110px;
+        position: relative;
+        top: -40px;
+    }
+    
+    .adresse{
+        position: relative;
+        top: -60px;
+    }
+    
+    .experience{
+        margin-left: 35px;
+        position: relative;
+        top: -60px;
+    }
+}
+
+@media screen and (max-width:476px){
+    .Jesuis{
+        text-align: left;
+    }
+
+    .Myphoto{
+        margin-left: 220px;
+    }
+
+    .Hello{
+        margin-left: 40px;
+    }
+
+    .front{
+        padding: 10px;
+        width: 350px;
+    }
+
+
+    .back{
+        padding: 10px;
+        width: 350px;
+    }
+
+    .ux{
+        padding: 10px;
+        width: 350px;
+    }
+
+    .framework{
+        padding: 10px;
+        width: 350px;
+    }
+
+    .frontback{
+        margin-left: 50px;
+    }
+
+    .uxframework{
+        margin-left: 50px;
+    }
+    
 
 
 }
 
 
-.burgerlink{
 
-    margin: 0px;
-    padding: 20px;
-    background-color: #F9F9FA;
-    position: relative;
-    box-shadow: 5px 10px 10px rgb(168, 167, 167);
-
-}
