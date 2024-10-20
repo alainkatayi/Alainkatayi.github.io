@@ -13,6 +13,17 @@ a{
     display: none;
 }
 
+.lik{
+    display: none;
+
+}
+
+
+.divburger{
+    display: flex;
+}
+
+
 .github{
     width: 20px;
     height: 20px;
@@ -1379,22 +1390,26 @@ nav ul{
 
     .burger{
         z-index: 100;
-        position: fixed;
         display: block;
-        width: 370px;
-        height: 70px;
-        margin-left: 30px;
-        margin-top: 10px;
-        background-color: #007bff;
-        top: -20px;
-
-
+        width: 50px;
+        height: 50px;
+ 
     }
 
+    .lik{
+        margin-left: 760px;
+        display: block;
+        width: 50px;
+        height: 50px;
+    }
+    .divburger{
+        padding: 10px;
+        background-color: #ffffff;
+        box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    }
     .navprin{
         background-color: #FFFFFF;
         margin: 20px;
-        margin-top: 90px;
         height: 400px;
         padding: 20px;
 
@@ -1521,19 +1536,34 @@ nav ul{
         display: block;
     }
 
+
+    .Jesuis{
+        text-align: center;
+        font-size: 90px;
+
+    }
+
     .Hello{
-        margin-top: 50px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navprin{
+        background-color: #FFFFFF;
+        margin: 20px;
+        height: 600px;
+        padding: 5px;
+        border-radius: 25px;
     }
 
     .Myphoto{
-        position: relative;
-        left: 350px;
-        top: -100px;
+        margin-left: 280px;
+        margin-bottom: 50px;
     }
 
     .Developpeur{
-        margin-top: -150px;
-
+        text-align: center;
+        font-size: 30px;
     }
 
     .identity{
@@ -1545,9 +1575,41 @@ nav ul{
     .Telecharger{
         margin-left: 620px;
     } 
+
+    .Contact2{
+        margin-left: 340px;
+    }
 }
 
 @media screen and (max-width:766px){
+
+    .Jesuis{
+        text-align: center;
+
+    }
+
+    .Hello{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navprin{
+        background-color: #FFFFFF;
+        margin: 20px;
+        height: 600px;
+        padding: 5px;
+        border-radius: 25px;
+    }
+
+    .Myphoto{
+        margin-left: 280px;
+
+    }
+
+    .Developpeur{
+        text-align: center;
+        font-size: 30px;
+    }
     .nana{
         display: block;
     }
@@ -1586,50 +1648,38 @@ nav ul{
 }
 
 @media screen and (max-width:720px){
-    .Myphoto{
-        position: initial;
-        margin-left: 170px;
 
+    .Jesuis{
+        text-align: center;
+
+    }
+
+    .Hello{
+        text-align: center;
+        margin-top: 10px;
     }
 
     .navprin{
-        height: 550px;
-        padding: 0px;
-        margin: 0px;
-        margin-top: 80px;
-        background-color: #ffffff;
-        box-shadow: none;
+        background-color: #FFFFFF;
+        margin: 20px;
+        height: 600px;
+        padding: 5px;
+        border-radius: 25px;
     }
 
-    .Jesuis{
+    .Myphoto{
+        margin-left: 220px;
 
-        margin-left: 0px;
-        text-align: center;
-        font-size: 80px;
     }
-    .Hello{
-        margin-top: 100px;
-        text-align: left;
-    }
-
-
-    .Hello{
-        margin-left: 130px;
-        margin-top: 20px;
-    }
-
-
 
     .Developpeur{
         text-align: center;
-        margin-top: -15px;
-
+        font-size: 30px;
     }
 
     .Contact2{
-        margin-left: 250px;
+        margin-left: 280px;
     }
-
 
     .front{
         
@@ -1684,58 +1734,132 @@ nav ul{
 
 }
 
-
-@media screen and (max-width:718px){
+@media screen and (max-width:674px){
     .Jesuis{
-        font-size: 80px;
-        text-align: left;
-    }       
-    .navprin{
-        padding: 0px;
-        margin-left: 50px;
-        margin-top: 50px;
-        background-color: #ffffff;
-        box-shadow: none;
+        text-align: center;
+
     }
 
-
-
     .Hello{
-        margin-left: 130px;
-        margin-top: 100px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navprin{
+        background-color: #FFFFFF;
+        margin: 20px;
+        height: 600px;
+        padding: 5px;
+        border-radius: 25px;
     }
 
     .Myphoto{
+        margin-left: 220px;
 
-        margin-left: 400px;
-        margin-top: -280px;
     }
 
     .Developpeur{
-        text-align: left;
-        margin-top: -35px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .Contact2{
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width:648px){
+    .Jesuis{
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .Hello{
+        text-align: center;
         margin-left: 0px;
     }
 
-    .Contact2{
-        margin-left: 130px;
+    .Developpeur{
+        margin-left: 5px;
+        margin-top: -180px;
     }
 
+    .navprin{
+        background-color: #FFFFFF;
+        margin: 50px;
+        height: 600px;
+        padding: 10px;
+    }
+
+    .Myphoto{
+        margin-left: 350px;
+    }
+
+    .Contact2{
+        margin-left: 250px;
+    }
 }
 
 @media screen and (max-width:635px){
+    .Jesuis{
+        text-align: center;
+
+    }
+
+    .Hello{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navprin{
+        background-color: #FFFFFF;
+        margin: 10px;
+        height: 540px;
+        padding: 5px;
+        border-radius: 15px;
+    }
+
     .Myphoto{
+        margin-left: 350px;
+    }
 
-        margin-left: 800px;
-
+    .Developpeur{
+        text-align: center;
+        font-size: 30px;
     }
 }
 
 @media screen and (max-width:654px){
+
     .Jesuis{
-        font-size: 70px;
-        text-align: left;
+        text-align: center;
+
     }
+
+    .Hello{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navprin{
+        background-color: #FFFFFF;
+        margin: 20px;
+        height: 640px;
+        padding: 5px;
+        border-radius: 25px;
+    }
+
+    .Myphoto{
+        margin-left: 200px;
+    }
+
+    .Developpeur{
+        margin-top: 0px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+    
     .uxframework{
         margin-left:60px ;
     }
@@ -1744,14 +1868,13 @@ nav ul{
         margin-left: 60px;
     }
 
-    .Hello{
-        
-        margin-left: 70px;
-    }
+
 
     .maphoto{
         margin-left: 200px;
     }
+
+
 
 }
 
@@ -1759,7 +1882,7 @@ nav ul{
 
     .Jesuis{
         font-size: 70px;
-        text-align: left;
+        text-align: center;
     }
     .identity{
 
@@ -1772,7 +1895,7 @@ nav ul{
     } 
 
     .Myphoto{
-        position: initial;
+
         margin-left: 30px;
 
     }
@@ -1784,17 +1907,96 @@ nav ul{
 
 @media screen and (max-width:630px){
     .Jesuis{
-        font-size: 70px;
-        text-align: left;
+        text-align: center;
+
     }
+
+    .Hello{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navprin{
+        background-color: #FFFFFF;
+        margin: 10px;
+        height: 540px;
+        padding: 5px;
+        border-radius: 15px;
+    }
+
     .Myphoto{
-        position: relative;
-        left: -150px;
-        top: 20px;
+        margin-left: 200px;
     }
 
     .Developpeur{
-        margin-top: 15px;
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:636px){
+    .Jesuis{
+        text-align: center;
+
+    }
+
+    .Hello{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navprin{
+        background-color: #FFFFFF;
+        margin: 20px;
+        height: 600px;
+        padding: 5px;
+        border-radius: 25px;
+    }
+
+    .Myphoto{
+        margin-left: 200px;
+    }
+
+    .Developpeur{
+        margin-top: 0px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .Contact2{
+        margin-left: 250px;
+    }
+}
+
+@media screen and (max-width:620px){
+
+    .Jesuis{
+        text-align: center;
+
+    }
+
+    .Hello{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navprin{
+        background-color: #FFFFFF;
+        margin: 20px;
+        height: 600px;
+        padding: 5px;
+        border-radius: 25px;
+    }
+
+    .Myphoto{
+        margin-left: 170px;
+    }
+
+    .Developpeur{
+        margin-top: 0px;
+        text-align: center;
+        font-size: 30px;
     }
 
     .Contact2{
@@ -1803,24 +2005,80 @@ nav ul{
 }
 
 
-@media screen and (max-width:636px){
+
+
+@media screen and (max-width:618px){
     .Jesuis{
-        font-size: 70px;
-        text-align: left;
+        text-align: center;
+        font-size: 80px;
     }
+
+    .Hello{
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .navprin{
+        background-color: #FFFFFF;
+        margin: 10px;
+        height: 400px;
+        padding: 5px;
+    }
+
+}
+
+@media screen and (max-width:605px){
+    
+    .navprin{
+        background-color: #FFFFFF;
+        margin: 20px;
+        height: 600px;
+        padding: 10px;
+        border-radius: 25px;
+    }
+
+    .Hello{
+        margin-top: 10px;
+    }
+
     .Myphoto{
-        margin-left: 300px;
+        margin-left: 150px;
+        top: 10px;
+    }
+
+    .Developpeur{
+        margin-top: -10px;
     }
 }
 
 
 @media screen and (max-width:590px){
     .Jesuis{
-        font-size: 70px;
-        text-align: left;
+        text-align: center;
     }
+    .navprin{
+        background-color: #FFFFFF;
+        margin: 20px;
+        height: 600px;
+        padding: 10px;
+        border-radius: 25px;
+    }
+
+    .Hello{
+        margin-top: 10px;
+    }
+
     .Myphoto{
-        margin-left: 280px;
+        margin-left: 150px;
+        top: 10px;
+    }
+
+    .Developpeur{
+        margin-top: -10px;
+    }
+
+    .Contact2{
+        margin-left: 2500px;
     }
 }
 
@@ -1829,7 +2087,7 @@ nav ul{
 @media screen and (max-width:592px){
     .Jesuis{
         font-size: 70px;
-        text-align: left;
+        text-align: center;
     } 
 
     .maphoto{
@@ -1841,7 +2099,7 @@ nav ul{
     }
 
     .Contact2{ 
-        margin-left: 180px;
+        margin-left: 200px;
     }
 
     .uxframework{
@@ -1852,14 +2110,13 @@ nav ul{
         margin-left: 40px;
     }
 
-    
 
 }
 
 @media screen and (max-width:574px){
     .Jesuis{
         font-size: 70px;
-        text-align: left;
+        text-align: center;
     }
     .identity{
         width: 450px;
@@ -1886,10 +2143,10 @@ nav ul{
 }
 
 @media screen and (max-width:548px){
-        .Jesuis{
+    .Jesuis{
             font-size: 70px;
-            text-align: left;
-        }
+            text-align: center;
+    }
 
     .Contact2{
         margin-left: 150px;
@@ -1966,6 +2223,11 @@ nav ul{
 
 @media screen and (max-width:526px){
 
+    .Myphoto{
+        margin-top:-70px ;
+        margin-left: 100px;
+    }
+
     .frontback{
         margin-left: 50px;
     }
@@ -1978,16 +2240,43 @@ nav ul{
         margin-left: 140px;
     }
 
+    .Developpeur{
+        margin-top:  -10px;
+    }
+
+    .Contact2{
+        margin-left: 200px;
+    }
+
 }
 
 @media screen and (max-width:492px){
 
+    .Jesuis{
+        margin-left: 20px;
+    }
+
+    .Developpeur{
+        text-align: center;
+    }
+
+    .Myphoto{
+        
+        margin-left: 100px;
+    }
+
     .navprin{
-        height: 580px;
+        margin: 20px;
+        height: 600px;
         border-radius: 30px;
         padding: 0px;
         background-color: #ffffff;
-        box-shadow: none;
+        border-radius: 50px;
+        box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    }
+
+    .Jesuis{
+        margin-left: 0px;
     }
 
     .fullname{
@@ -2035,13 +2324,14 @@ nav ul{
     }
 }
 
+
 @media screen and (max-width:476px){
     .Jesuis{
-        text-align: left;
+        text-align: center;
     }
 
     .Myphoto{
-        margin-left: 220px;
+        margin-left: 100px;
     }
 
     .Hello{
@@ -2076,10 +2366,722 @@ nav ul{
     .uxframework{
         margin-left: 50px;
     }
+
+    .Contact2{
+        margin-left: 180px;
+}
     
+}
+
+
+@media screen and (max-width:452px){
+
+    .Myphoto{
+        margin-left: 100px;
+    }
+
+
+
+    .identity{
+        transform: translateX(40px);    
+        width: 350px;
+        height: 200px;
+    }
+
+    .Telecharger{
+        margin-left: 260px;
+    } 
+
+    .Developpeur{
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .age{
+        margin-left: 80px;
+        position: relative;
+        top: -40px;
+    }
+
+    .postname{
+        margin-left: 130px;
+    }
+
+    .Contact2{
+            margin-left: 150px;
+    }
+}
+
+
+@media screen and (max-width:424px){
+
+    .Myphoto{
+        margin-left: 80px;
+    }
+
+}
+
+@media screen and (max-width:428px){
+
+    .navprin{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .front{
+        width: 380px;
+    }
+
+    .back{
+        width: 380px;
+    }
+
+    .ux{
+        width: 380px;
+    }
+
+    .framework{
+        width: 380px;
+    }
+    .frontback{
+        margin-left: 30px;
+    }
+
+    .uxframework{
+        margin-left: 30px;
+    }
+
+    .maphoto{
+        margin-left: 80px;
+    }
+
+    .Hello{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:414px){
+
+    .identity{
+        transform: translateX(20px); 
+    }
+
+    .Telecharger{
+        margin-left: 240px;
+    }
+
+    .fullname{
+        margin-left: 20px;
+    }
+
+    .front{
+        width: 350px;
+    }
+
+    .back{
+        width: 350px;
+    }
+
+    .ux{
+        width: 350px;
+    }
+    .framework{
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width:396px){
+
+    .navprin{
+        padding: 10px;
+        height: 620px;
+    }
+
+    .Hello{
+        text-align: left;
+        margin-left: 80px;
+    }
+
+    .Jesuis{
+        text-wrap: balance;
+        text-align: center;
+    }
+
+    .Myphoto{
+        margin-left: 50px;
+    }
+
+    .Developpeur{
+        margin-top:  -50px;
+    }
+
+    .Contact2{
+        margin-left: 120px;
+    }
+
+
+    .frontback{
+        margin-left: 30px;
+    }
+
+    .uxframework{
+        margin-left: 20px;
+    }
+
+    .fullname{
+        
+        margin-left: 20px;
+    }
+    
+    .identity{
+        transform: translateX(10px);    
+    }
+
+    .Telecharger{
+        margin-left: 120px;
+    } 
+
+    .front{
+        width: 320px;
+    }
+
+    .back{
+        width: 320px;
+    }
+
+    .framework{
+        width: 320px;
+    }
+
+    .ux{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width:428px){
+    .frontback{
+        margin-left: 15px;
+    }
+
+    .uxframework{
+        margin-left: 15px;
+    }
+}
+
+
+@media screen and (max-width:390px){
+    .Jesuis{
+        text-align: center;
+    }
+    .About{
+        margin-top: 100px;
+    }
+
+    .fullname{
+        margin-left: 20px;
+    }
+
+    .identity{
+        transform: translateX(30px);    
+        width: 300px;
+        height: 250px;
+    }
+
+    .Telecharger{
+        margin-left: 200px;
+    } 
+
+
+    .front{
+
+        width: 300px;
+    }
+
+    .back{
+
+        width: 300px;
+    }
+
+    .ux{
+
+        width: 300px;
+    }
+
+    .framework{
+        width: 300px;
+    }
+
+    .frontback{
+        margin-left: 30px;
+    }
+
+    .uxframework{
+        margin-left: 30px;
+    }
+
+    .logojs{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin-top: -360px;
+        margin-left: 310px;
+        top: -210px;
+    }
+
+    .logocss{
+        left: 10px;
+        bottom:197px;
+    }
+
+    .pfront{
+        bottom: 280px;
+    }
+
+    .logodjango{
+        left: 10px;
+        bottom: 200px;
+    }
+
+    .pback{
+        bottom: 280px;
+    }
+
+    .logophotoshop{
+        left: 40px;
+        bottom: 180px;
+    }
+
+    .logoillustrator{
+        bottom: 330px;
+
+    }
+
+    .pux{
+        bottom: 380px;
+    }
+
+    .pframe{
+        margin-top: -280px;
+    }
+
+
+
+
+    .Myphoto{
+        margin-left: 50px;
+    }
 
 
 }
 
+
+
+@media screen and (max-width:375px){
+    
+    .About{
+        margin-top: 100px;
+    }
+
+    .fullname{
+        margin-left: 20px;
+    }
+
+    .identity{
+        transform: translateX(30px);    
+        width: 300px;
+        height: 250px;
+    }
+
+    .Telecharger{
+        margin-left: 200px;
+    } 
+
+
+    .front{
+
+        width: 300px;
+    }
+
+    .back{
+
+        width: 300px;
+    }
+
+    .ux{
+
+        width: 300px;
+    }
+
+    .framework{
+        width: 300px;
+    }
+
+    .frontback{
+        margin-left: 20px;
+    }
+
+    .uxframework{
+        margin-left: 20px;
+    }
+
+    .logojs{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin-top: -360px;
+        margin-left: 310px;
+        top: -210px;
+    }
+
+    .logocss{
+        left: 10px;
+        bottom:197px;
+    }
+
+    .pfront{
+        bottom: 280px;
+    }
+
+    .logodjango{
+        left: 10px;
+        bottom: 200px;
+    }
+
+    .pback{
+        bottom: 280px;
+    }
+
+    .logophotoshop{
+        left: 40px;
+        bottom: 180px;
+    }
+
+    .logoillustrator{
+        bottom: 330px;
+
+    }
+
+    .pux{
+        bottom: 380px;
+    }
+
+    .pframe{
+        margin-top: -280px;
+    }
+
+    .Jesuis{
+        text-align: center;
+    }
+
+
+    .Myphoto{
+        margin-left: 50px;
+    }
+}
+
+
+@media screen and (max-width:368px){
+
+    .fullname{
+        margin-left: 20px;
+    }
+
+    .identity{
+        transform: translateX(30px);    
+        width: 300px;
+        height: 250px;
+    }
+
+    .Telecharger{
+        margin-left: 200px;
+    } 
+
+
+    .front{
+
+        width: 300px;
+    }
+
+    .back{
+
+        width: 300px;
+    }
+
+    .ux{
+
+        width: 300px;
+    }
+
+    .framework{
+        width: 300px;
+    }
+
+    .frontback{
+        margin-left: 20px;
+    }
+
+    .uxframework{
+        margin-left: 20px;
+    }
+
+    .logojs{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        margin-top: -360px;
+        margin-left: 310px;
+        top: -210px;
+    }
+
+    .logocss{
+        left: 10px;
+        bottom:197px;
+    }
+
+    .pfront{
+        bottom: 280px;
+    }
+
+    .logodjango{
+        left: 10px;
+        bottom: 200px;
+    }
+
+    .pback{
+        bottom: 280px;
+    }
+
+    .logophotoshop{
+        left: 40px;
+        bottom: 180px;
+    }
+
+    .logoillustrator{
+        bottom: 330px;
+
+    }
+
+    .pux{
+        bottom: 380px;
+    }
+
+    .pframe{
+        margin-top: -280px;
+    }
+
+    .Jesuis{
+        text-align: center;
+    }
+
+    .About{
+        margin-top: 100px;
+    }
+
+    .Myphoto{
+        margin-left: 50px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:320px){
+
+    .Purview{
+        font-size: 40px;
+
+        text-align: center;
+    }
+
+    .About{
+        font-size: 40px;
+    }
+
+    .navprin{
+        padding: 10px;
+        height: 500px;
+        border-radius: 30px;
+    }
+
+    .Developpeur{
+        font-size: 20px;
+    }
+    .Jesuis{
+        font-size: 50px;
+    }
+    .Myphoto{
+        margin-left: 20px;
+    }
+
+    .Contact2{
+        margin-left: 100px;
+    }
+
+    .maphoto{
+        margin-left:30px ;
+    }
+
+    .identity{
+        transform: translateX(10px);    
+        width: 270px;
+        height: 250px;
+    }
+
+    .Telecharger{
+        margin-left: 80px;
+    } 
+
+    .postname{
+        margin-left: 80px;
+    }
+
+    .age{
+        margin-left: 20px;
+    }
+
+    .front{
+        width: 250px;
+    }
+
+    .back{
+        width: 250px;
+    }
+
+    .framework{
+        width: 250px;
+    }
+
+    .ux{
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width:360px){
+    .Developpeur{
+        font-size: 20px;
+    }
+    .Jesuis{
+        font-size: 50px;
+    }
+
+    
+    .Purview{
+        font-size: 40px;
+
+        text-align: center;
+    }
+
+    .About{
+        font-size: 40px;
+    }
+
+    
+    .navprin{
+        padding: 10px;
+        height: 500px;
+        border-radius: 30px;
+    }
+
+    .portfolio{
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width:375px){
+    .Developpeur{
+        font-size: 20px;
+    }
+    .Jesuis{
+        font-size: 50px;
+    }
+
+    
+    .Purview{
+        font-size: 40px;
+
+        text-align: center;
+    }
+
+    .About{
+        font-size: 40px;
+    }
+
+    
+    .navprin{
+        padding: 10px;
+        height: 500px;
+        border-radius: 30px;
+    }
+
+    .portfolio{
+        font-size: 40px;
+    }
+}
+
+
+
+@media screen and (max-width:414px){
+    .Developpeur{
+        font-size: 20px;
+    }
+    .Jesuis{
+        font-size: 50px;
+    }
+
+    
+    .Purview{
+        font-size: 40px;
+
+        text-align: center;
+    }
+
+    .About{
+        font-size: 40px;
+    }
+
+    
+    .navprin{
+        padding: 10px;
+        height: 500px;
+        border-radius: 30px;
+    }
+
+    .portfolio{
+        font-size: 40px;
+    }
+
+    .Myphoto{
+        margin-left: 50px;
+    }
+
+    .Developpeur{
+        margin-top: -40px;
+        margin-bottom: 30px;
+    }
+
+    .Contact2{
+        margin-left: 130px;
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width:298px){
+
+    .navprin{
+        height: 580px;
+    }
+    .Myphoto{
+        margin-left: 10px;
+    }
+
+    .Contact2{
+        margin-left: 80px;
+    }
+}
 
 
