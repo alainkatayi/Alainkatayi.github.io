@@ -51,3 +51,14 @@ function fermerButton(){
     document.getElementById("overlay").style.display = "none";
     document.getElementById("popup").style.display = "none"
 }
+
+
+var burger = document.getElementById("burger");
+burger.addEventListener('click', ouvrirmenu);
+
+function ouvrirmenu (){
+
+    document.getElementById("menupourmobile").style.display = "block";
+
+}
+

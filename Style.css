@@ -9,6 +9,61 @@ a{
     text-decoration: none;
 }
 
+.menuformobile ul li{
+    color: #ffffff;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+.menuformobile{
+    z-index: 300px;
+    padding: 10px;
+    color: #FFFFFF;
+    position: relative;
+    top: 10px;
+    left: 5%;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: rgba(170, 25, 25, 0.267);
+    opacity: 10;
+    box-shadow: 5px 10px 30px rgb(168, 167, 167);
+    display: none;
+    margin-bottom: 20px;
+
+}
+
+
+
+.homemobile{
+    color: #000000;
+    font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+}
+
+
+
+.aproposmobile{
+    color: #000000;
+    font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+}
+
+
+
+.realisationsmobile{
+    color: #000000;
+    font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+}
+
+
+
+.Contactmobile{
+    color: #099A68;
+    font-family: 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+}
+
+
 .burger{
     display: none;
 }
@@ -1389,6 +1444,8 @@ nav ul{
     }
 
     .burger{
+        margin-left: 5%;
+        margin-top: 2%;
         z-index: 100;
         display: block;
         width: 50px;
@@ -1396,17 +1453,11 @@ nav ul{
  
     }
 
-    .lik{
-        margin-left: 760px;
-        display: block;
-        width: 50px;
-        height: 50px;
+    .divburger a{
+        justify-content: center;
     }
-    .divburger{
-        padding: 10px;
-        background-color: #ffffff;
-        box-shadow: 5px 10px 30px rgb(168, 167, 167);
-    }
+
+
     .navprin{
         background-color: #FFFFFF;
         margin: 20px;
@@ -1679,6 +1730,10 @@ nav ul{
 
     .Contact2{
         margin-left: 280px;
+    }
+
+    .identity{
+        transform: translateX(100px);  
     }
 
     .front{
@@ -3084,4 +3139,71 @@ nav ul{
     }
 }
 
+
+@media screen and (max-width:343px){
+
+    .Myphoto{
+        margin-left: 30px;
+    }
+
+
+    .Contact2{
+        margin-left: 100px;
+    }
+
+    .maphoto{
+        margin-left: 50px;
+    }
+    .identity{
+        transform: translateX(15px);    
+        width: 290px;
+        height: 250px;
+    }
+
+    .Telecharger{
+        margin-left: 170px;
+    }
+    
+    .frontback{
+        margin-left: 10px;
+    }
+
+    .uxframework{
+        margin-left: 10px;
+    }
+}
+
+
+@media screen and (max-width:414px){
+
+    .menuformobile{
+        left: 0%;
+    }
+}
+
+@media screen and (max-width:375px){
+
+    .menuformobile{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:390px){
+    .menuformobile{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:375PX){
+    .menuformobile{
+        width: 270px;
+    }
+}
+
+@media screen and (max-width:360px){
+
+    .menuformobile{
+        width: 250px;
+    }
+}
 
