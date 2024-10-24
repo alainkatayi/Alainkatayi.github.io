@@ -62,3 +62,22 @@ function ouvrirmenu (){
 
 }
 
+
+
+var cont4 = document.getElementById("Contact22");
+cont4.addEventListener("click",MenuContact2)
+
+
+function MenuContact2(){
+    document.getElementById("overlay").style.display = "block";
+    document.getElementById("popup").style.display = "Block"
+}
+
+
+var fermer2 = document.getElementById("fermerButton");
+fermer2.addEventListener("click",fermerButton );
+
+function fermerButton(){
+    document.getElementById("overlay").style.display = "none";
+    document.getElementById("popup").style.display = "none"
+}
